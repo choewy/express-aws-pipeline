@@ -4,20 +4,14 @@
 - express
 - pm2
 - AWS EC2
-- AWS Code Deploy
+- AWS CodeDeploy
+- AWS Pipeline
 
 # AWS EC2 Instance
 
-- OS: linux
-- User Data
+- OS: ubuntu 20.04 LTS
 
-```
-#!/bin/bash
-sudo yum -y update
-sudo yum -y install ruby
-sudo yum -y install wget
-cd /home/ec2-user
-wget https://aws-codedeploy-us-east-1.s3.amazonaws.com/latest/install
-sudo chmod +x ./install
-sudo ./install auto
-```
+# AWS EC2, IAM, CodeDeploy, Pipeline 설정
+
+- [[#1] AWS EC2 Instance(ubuntu20.04) 설정][https://github.com/choewy/express-aws-pipeline/issues/1]
+- [[#2] AWS IAM & CodeDeploy & Pipeline 설정][https://github.com/choewy/express-aws-pipeline/issues/2]

@@ -1,3 +1,3 @@
 #!/bin/bash
 cd /home/ubuntu/build/
-npm run delete
+npm install

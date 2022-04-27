@@ -1,28 +1,26 @@
 {
-  "name": "express-aws-test",
+  "name": "express-aws-server",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "bin": {
-    "express-aws-test": "dist/bin/www.js"
+    "express-aws-server": "dist/bin/www.js"
   },
   "scripts": {
-    "stop": "pm2 stop www",
-    "delete": "pm2 delete www",
-    "start": "tsc && node dist/bin/www.js",
-    "start:dev": "nodemon --watch \"*.ts\" --exec \"ts-node\" src/bin/www.ts"
+    "start:dev": "nodemon --watch \"*.ts\" --exec \"ts-node\" src/bin/www.ts",
+    "start": "tsc && pm2 start dist/bin/www.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/choewy/express-aws-test.git"
+    "url": "git+https://github.com/choewy/express-aws-server.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/choewy/express-aws-test/issues"
+    "url": "https://github.com/choewy/express-aws-server/issues"
   },
-  "homepage": "https://github.com/choewy/express-aws-test#readme",
+  "homepage": "https://github.com/choewy/express-aws-server#readme",
   "dependencies": {
     "express": "^4.18.0",
     "pm2": "^5.2.0"

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo chmod -R 777 /home/ubuntu/express-server
+
 cd /home/ubuntu/express-server
 
 export NVM_DIR="$HOME/.nvm"

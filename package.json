@@ -1,10 +1,10 @@
 {
-  "name": "express-aws-server",
+  "name": "express-aws-pipeline",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "bin": {
-    "express-aws-server": "dist/bin/www.js"
+    "express-aws-pipeline": "dist/bin/www.js"
   },
   "scripts": {
     "start:dev": "nodemon --watch \"*.ts\" --exec \"ts-node\" src/bin/www.ts",
@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/choewy/express-aws-server.git"
+    "url": "git+https://github.com/choewy/express-aws-pipeline.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/choewy/express-aws-server/issues"
+    "url": "https://github.com/choewy/express-aws-pipeline/issues"
   },
-  "homepage": "https://github.com/choewy/express-aws-server#readme",
+  "homepage": "https://github.com/choewy/express-aws-pipeline#readme",
   "dependencies": {
     "express": "^4.18.0",
     "pm2": "^5.2.0"

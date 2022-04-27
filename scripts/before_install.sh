@@ -6,6 +6,7 @@ if [ -d "$DIR" ]; then
 else
   echo "Creating ${DIR} directory"
   mkdir ${DIR}
+  sudo chmod -R 777 /home/ubuntu/build
 fi
 
 exit 0

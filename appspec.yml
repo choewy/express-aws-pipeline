@@ -11,9 +11,9 @@ hooks:
   InstallDependencies:
     - location: scripts/install_dependencies.sh
       timeout: 300
-  ApplicationStop:
-    - location: scripts/application_stop.sh
-      timeout: 300
   ApplicationStart:
     - location: scripts/application_start.sh
+      timeout: 300
+  ApplicationStop:
+    - location: scripts/application_stop.sh
       timeout: 300

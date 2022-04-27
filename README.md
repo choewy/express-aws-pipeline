@@ -13,5 +13,5 @@
 
 # AWS EC2, IAM, CodeDeploy, Pipeline 설정
 
-- [[#1] AWS EC2 Instance(ubuntu20.04) 설정][https://github.com/choewy/express-aws-pipeline/issues/1]
-- [[#2] AWS IAM & CodeDeploy & Pipeline 설정][https://github.com/choewy/express-aws-pipeline/issues/2]
+- [[#1] AWS EC2 Instance(ubuntu20.04) 설정](https://github.com/choewy/express-aws-pipeline/issues/1)
+- [[#2] AWS IAM & CodeDeploy & Pipeline 설정](https://github.com/choewy/express-aws-pipeline/issues/2)

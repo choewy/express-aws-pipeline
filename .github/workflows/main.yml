@@ -13,7 +13,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     strategy:
-      node-version: [16.x]
+      matrix:
+        node-version: [16.x]
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:

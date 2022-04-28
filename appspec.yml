@@ -4,15 +4,15 @@ files:
   - source: /
     destination: /home/ubuntu/express-server
 hook:
-  ApplicationStop:
-    - location: scripts/application_stop.sh
+  stop:
+    - location: scripts/stop.sh
       timeout: 300
       runas: ubuntu
-  BeforeInstall:
-    - location: scripts/before_install.sh
+  setting:
+    - location: scripts/setting.sh
       timout: 300
       runas: ubuntu
-  ApplicationStart:
-    - location: scripts/application_start.sh
+  start:
+    - location: scripts/start.sh
       timout: 300
       runas: ubuntu
